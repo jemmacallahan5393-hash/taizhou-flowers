@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f1e8">
+  <meta name="description" content="走近台州市花：桂花与梅花。以真实照片、城市调研与互动体验，认识山海台州的一城双花。">
+  <title>走近台州市花｜桂花与梅花</title>
+  <style>
+    :root{--paper:#f5f1e8;--ink:#20342b;--muted:#69746d;--line:#d8d6c9;--gold:#b5872e;--plum:#a85d62;--green:#31523f;--white:#fffcf6}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.75}button,a{font:inherit}button{cursor:pointer}a{color:inherit}img{display:block;max-width:100%}::selection{background:#e8d5a8;color:var(--ink)}
+    .serif{font-family:"Songti SC","Noto Serif CJK SC","SimSun",serif}.wrap{width:min(1180px,calc(100% - 48px));margin:auto}.eyebrow{font-size:12px;letter-spacing:.22em;font-weight:700;color:var(--gold);text-transform:uppercase}.section{padding:95px 0;scroll-margin-top:76px}.section-title{font-size:clamp(32px,4.8vw,61px);font-weight:500;letter-spacing:.03em;line-height:1.2;margin:12px 0 20px}.lead{font-size:18px;color:#526257;max-width:730px}.small{font-size:13px;color:var(--muted)}
+    .topbar{position:sticky;z-index:20;top:0;height:70px;background:rgba(245,241,232,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.topbar .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{text-decoration:none;display:flex;gap:10px;align-items:center;font-weight:800;letter-spacing:.1em}.brand-mark{width:31px;height:31px;border-radius:50%;background:var(--ink);color:#f6e9c6;display:grid;place-items:center;font-family:serif;font-size:17px}.nav{display:flex;gap:25px;align-items:center}.nav a{text-decoration:none;color:#536258;font-size:13px}.nav a:hover,.nav a:focus-visible{color:var(--gold)}.nav .nav-cta{border:1px solid var(--ink);padding:7px 13px;border-radius:3px;color:var(--ink)}
+    .hero{min-height:min(790px,calc(100svh - 70px));position:relative;overflow:hidden}.hero-grid{min-height:inherit;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:45px}.hero-copy{position:relative;z-index:2;padding:75px 0}.hero h1{font-weight:500;font-size:clamp(68px,9vw,125px);letter-spacing:-.09em;line-height:1.1;margin:22px 0 22px}.hero h1 span{display:block}.hero h1 em{font-style:normal;color:var(--gold)}.hero p{max-width:475px;color:#5c685f;font-size:18px;line-height:1.9}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.btn{border:1px solid var(--ink);background:var(--ink);color:var(--white);padding:12px 23px;text-decoration:none;display:inline-flex;justify-content:center;align-items:center;gap:8px;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-3px);background:#3a5a46}.btn-outline{background:transparent;color:var(--ink)}.btn-outline:hover{background:#e8e4d8}.hero-media{position:relative;height:630px;margin-right:-100px}.hero-media:before{content:"";position:absolute;inset:25px 80px 60px 0;background:#d9d4c5;transform:rotate(-4deg)}.hero-main{position:absolute;inset:35px 60px 80px 10px;width:calc(100% - 70px);height:calc(100% - 115px);object-fit:cover;filter:saturate(.82)}.hero-inset{position:absolute;right:10px;bottom:20px;width:42%;height:42%;object-fit:cover;border:10px solid var(--paper);box-shadow:0 20px 40px #1b33242b}.hero-vertical{position:absolute;left:-28px;bottom:76px;writing-mode:vertical-rl;letter-spacing:.25em;background:var(--paper);padding:13px 7px;font-size:11px;color:var(--muted)}.hero-index{position:absolute;top:52px;right:70px;color:#fff;font-size:11px;letter-spacing:.18em;background:#243d2faf;padding:7px 12px}
+    .intro-band{background:var(--ink);color:#f7f1e6;padding:29px 0}.intro-band .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px;text-align:center}.intro-band strong{font-size:16px;font-weight:500;letter-spacing:.11em}.intro-band .dot{color:#eac880;font-size:28px}
+    .story-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:90px;align-items:start}.story-sticky{position:sticky;top:106px}.timeline{border-left:1px solid #b9bdb0;padding-left:28px}.moment{position:relative;padding:0 0 43px}.moment:last-child{padding-bottom:0}.moment:before{content:"";position:absolute;width:11px;height:11px;border-radius:50%;background:var(--gold);border:4px solid var(--paper);left:-38px;top:4px;box-sizing:content-box}.moment .year{font-family:Georgia,serif;color:var(--gold);font-size:42px;line-height:1}.moment h3{font-size:21px;margin:7px 0 8px}.moment p{margin:0;color:#526257}.note{margin-top:34px;background:#e8e8dd;border-left:3px solid var(--gold);padding:18px 20px;font-size:14px;color:#526257}
+    .flowers{background:#ebe9df}.flower-head{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:32px}.flower-switch{display:flex;gap:6px;border:1px solid #bfc5b9;padding:5px;border-radius:50px}.flower-switch button{border:0;background:none;color:#59695f;border-radius:50px;padding:8px 18px;font-size:14px}.flower-switch button[aria-pressed="true"]{background:var(--ink);color:#fff}.flower-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.flower-card{background:var(--white);overflow:hidden;border:1px solid #e1dfd5;transition:box-shadow .25s,transform .25s}.flower-card.is-active{box-shadow:0 18px 35px #24402b20;transform:translateY(-4px)}.flower-image{height:365px;overflow:hidden;position:relative}.flower-image img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.flower-card:hover img{transform:scale(1.035)}.flower-image .tag{position:absolute;top:18px;left:18px;background:#f9f5e9eb;padding:5px 10px;font-size:12px;letter-spacing:.1em}.flower-body{padding:27px 29px 32px}.flower-body .latin{font-family:Georgia,serif;font-style:italic;color:var(--muted);font-size:13px}.flower-body h3{font-size:39px;font-weight:500;line-height:1.2;margin:4px 0 13px}.flower-body p{color:#5e6b61;min-height:96px;margin-bottom:17px}.flower-meta{display:flex;border-top:1px solid var(--line);padding-top:16px;gap:15px;justify-content:space-between;font-size:13px}.flower-meta b{font-weight:500;color:var(--ink)}.flower-meta span{color:var(--muted)}
+    .compare{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.compare-image{position:relative}.compare-image img{width:100%;height:500px;object-fit:cover}.compare-image:after{content:"山海有形 · 花开有时";position:absolute;bottom:16px;left:17px;background:#f9f4e9ed;padding:8px 14px;letter-spacing:.15em;font-size:12px}.compare-copy .comparison{margin-top:30px;display:grid;gap:14px}.comparison article{display:grid;grid-template-columns:82px 1fr;gap:18px;border-top:1px solid var(--line);padding-top:14px}.comparison b{color:var(--gold);font-weight:600}.comparison p{margin:0;color:#59685d}.comparison strong{color:var(--ink)}
+    .walk{background:#20372b;color:#f6f1e7}.walk .eyebrow{color:#e5c77b}.walk .lead{color:#cdd8ca}.walk-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:38px}.walk-card{position:relative;min-height:290px;overflow:hidden;border:1px solid #738575}.walk-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.58)}.walk-card-content{position:absolute;inset:0;padding:28px;display:flex;flex-direction:column;justify-content:space-between}.walk-card h3{font-size:30px;margin:6px 0}.walk-card p{max-width:400px;line-height:1.7;margin:0;color:#ecf0e7}.walk-card button{align-self:flex-start;background:#f9f3e6;color:var(--ink);border:0;padding:8px 15px}.walk-card button[aria-pressed="true"]{background:#e3c77c}.progress{display:flex;gap:15px;align-items:center;flex-wrap:wrap;margin-top:24px;font-size:14px;color:#d8e2d6}.progress-track{height:5px;background:#657965;flex:1;min-width:130px;max-width:310px}.progress-fill{height:100%;width:0;background:#e4c373;transition:width .3s}
+    .quiz-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:65px}.quiz-box{border:1px solid var(--line);background:var(--white);padding:35px}.quiz-box .question-number{color:var(--gold);font-size:13px;font-weight:700;letter-spacing:.15em}.quiz-box h3{font-size:24px;font-weight:500;margin:9px 0 22px}.choices{display:grid;gap:9px}.choice{border:1px solid var(--line);background:transparent;text-align:left;padding:12px 15px;color:var(--ink)}.choice:hover,.choice:focus-visible{border-color:var(--gold)}.choice.correct{background:#e5ece2;border-color:#638567}.choice.wrong{background:#f7e5e3;border-color:#b87272}.quiz-feedback{min-height:45px;margin:18px 0 4px;color:#4e5d52;font-size:14px}.quiz-next{display:none}.quiz-next.show{display:inline-flex}
+    .reflection{background:#e8e3d6}.reflection-layout{display:grid;grid-template-columns:.65fr 1.35fr;gap:65px}.reflection-paper{background:#fffcf5;padding:43px 48px;box-shadow:0 8px 25px #2f412b0b}.reflection-paper p{text-indent:2em;margin:0 0 16px;color:#4b584e}.reflection-paper p:last-child{margin-bottom:0}.sources{padding:36px 0 60px;border-top:1px solid var(--line)}.source-links{display:grid;grid-template-columns:repeat(2,1fr);gap:7px 25px}.source-links a{color:#516459;text-decoration-thickness:1px;text-underline-offset:3px;font-size:13px}.photo-credits{margin-top:18px;font-size:12px;color:#6b756b}.footer{background:#1c3025;color:#d3dfd0;padding:29px 0}.footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer span:last-child{color:#9fb19f}
+    @media(max-width:900px){.nav{gap:12px}.nav a:nth-child(2),.nav a:nth-child(3){display:none}.hero-grid{grid-template-columns:1fr;gap:0}.hero{min-height:0}.hero-copy{padding:65px 0 20px}.hero-media{height:520px;margin:0 -24px}.hero-main{inset:20px 25px 70px 25px;width:calc(100% - 50px);height:calc(100% - 90px)}.hero-media:before{inset:18px 50px 65px 20px}.hero-inset{right:5px;width:36%;height:35%;bottom:8px}.hero-vertical{left:15px;bottom:70px}.hero-index{right:30px}.story-grid,.compare,.quiz-layout,.reflection-layout{grid-template-columns:1fr;gap:34px}.story-sticky{position:static}.section{padding:70px 0}.compare-image img{height:390px}}
+    @media(max-width:620px){.wrap{width:min(100% - 34px,1180px)}.topbar{height:62px}.brand{font-size:14px}.nav a:not(.nav-cta){display:none}.hero h1{font-size:66px}.hero-copy{padding:50px 0 12px}.hero p{font-size:16px}.hero-media{height:390px;margin:0 -17px}.hero-inset{border-width:6px}.intro-band .wrap{grid-template-columns:1fr auto 1fr;gap:7px}.intro-band strong{font-size:11px;letter-spacing:0}.flower-head{align-items:start;flex-direction:column}.flower-grid,.walk-grid,.source-links{grid-template-columns:1fr}.flower-image{height:280px}.flower-body p{min-height:0}.comparison article{grid-template-columns:65px 1fr}.quiz-box{padding:24px}.reflection-paper{padding:26px}.section-title{font-size:35px}}
+    .gallery{background:#f8f5ec}.gallery-head{display:flex;justify-content:space-between;align-items:end;gap:22px;flex-wrap:wrap}.gallery-filters{display:flex;gap:7px;flex-wrap:wrap}.gallery-filters button{border:1px solid #bfc6b8;background:transparent;color:var(--ink);padding:8px 16px}.gallery-filters button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}.gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:31px}.gallery-item{margin:0;min-width:0}.gallery-item[hidden]{display:none}.gallery-open{display:block;width:100%;padding:0;border:0;background:#e5e4d9;overflow:hidden;text-align:left}.gallery-open img{width:100%;height:250px;object-fit:cover;transition:transform .3s}.gallery-open:hover img,.gallery-open:focus-visible img{transform:scale(1.04)}.gallery-item figcaption{display:flex;justify-content:space-between;gap:15px;padding:9px 1px 4px;color:#526157;font-size:13px}.gallery-item figcaption span:last-child{color:#9a752f;white-space:nowrap}.lightbox{border:0;padding:0;background:#17291f;color:#fff;width:min(1050px,calc(100vw - 32px));max-height:calc(100vh - 32px);box-shadow:0 22px 70px #07140eb0}.lightbox::backdrop{background:#0b1a13df}.lightbox-inner{display:grid;grid-template-columns:minmax(0,1fr) 260px;min-height:430px}.lightbox-image{width:100%;height:min(75vh,660px);object-fit:contain;background:#111d17}.lightbox-side{padding:26px;display:flex;flex-direction:column;gap:10px}.lightbox-close{align-self:flex-end;background:none;border:1px solid #a7b4a6;color:#fff;padding:4px 11px}.lightbox-side h3{font-size:26px;margin:auto 0 0;font-weight:500}.lightbox-side p{color:#d0dbcf;margin:0}.lightbox-side a{color:#e5d199;font-size:13px}.lightbox-controls{display:flex;gap:8px;margin-top:22px}.lightbox-controls button{background:#f4f0e7;color:#20342b;border:0;padding:8px 14px}.season{background:#e9eadf}.month-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:4px;margin-top:27px}.month-grid button{background:#f9f8f1;border:1px solid #cbd2c5;color:#496052;padding:12px 0;font-size:13px}.month-grid button[aria-pressed="true"]{background:#20342b;border-color:#20342b;color:#fff}.month-grid button[data-bloom="plum"]:after,.month-grid button[data-bloom="osmanthus"]:after{content:"●";display:block;line-height:.6;font-size:10px;color:#a95c65;margin-top:5px}.month-grid button[data-bloom="osmanthus"]:after{color:#ba8d2b}.season-panel{display:grid;grid-template-columns:.85fr 1.15fr;background:#fbfaf4;min-height:310px;margin-top:14px}.season-panel img{width:100%;height:310px;object-fit:cover}.season-copy{padding:38px 45px;align-self:center}.season-copy h3{font-size:33px;font-weight:500;margin:5px 0 10px}.season-copy p{color:#5c685e;margin:0 0 14px}.season-copy small{color:#738074}
+    @media(max-width:900px){.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.month-grid{grid-template-columns:repeat(6,minmax(0,1fr))}.season-panel{grid-template-columns:1fr}.season-panel img{height:270px}.lightbox-inner{grid-template-columns:1fr}.lightbox-image{height:min(55vh,500px)}.lightbox-side{padding:15px 20px}.lightbox-side h3{margin:0}}
+    @media(max-width:620px){.gallery-grid{grid-template-columns:1fr}.gallery-open img{height:250px}.season-copy{padding:25px}.month-grid button{padding:8px 0}.lightbox{width:calc(100vw - 12px)}.lightbox-image{height:50vh}}
+
+/* 双花纹样与章节细节 */
+.hero:before,.origin:before,.flowers:before,.meaning:before,.season:before{content:"";position:absolute;pointer-events:none;background-repeat:repeat;background-size:150px 150px;opacity:.18;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cg fill='none' stroke='%23a98064' stroke-width='1.3'%3E%3Cpath d='M29 35c4-12 12-12 17-1 11-5 17 1 10 11 8 8 4 16-7 16-6 10-15 9-18-2-12 0-16-8-7-16 0-2 2-5 5-8z'/%3E%3Ccircle cx='40' cy='47' r='4'/%3E%3Cpath d='M114 104c3-7 8-7 11-1 7-3 11 1 7 7 5 5 2 10-5 10-4 6-9 5-11-1-7 0-9-5-4-10z'/%3E%3Ccircle cx='121' cy='111' r='2'/%3E%3Cpath d='M63 103c13-7 23-14 29-27M83 80c-2-10 2-16 9-18M72 97c-8-1-14 1-18 7'/%3E%3C/g%3E%3C/svg%3E")}
+.hero:before{opacity:.11}.origin,.flowers,.meaning,.season{position:relative;overflow:hidden}.origin>.wrap,.flowers>.wrap,.meaning>.wrap,.season>.wrap{position:relative;z-index:1}.origin:before{background-position:right top;mask-image:linear-gradient(90deg,transparent 5%,black 100%)}.flowers:before{opacity:.11}.meaning:before{opacity:.11}.season:before{opacity:.08}
+.brand-mark,.btn,.flower-switch button,.month-grid button,.gallery-filters button,.place-open{transition:transform .2s,box-shadow .2s,background .2s}.brand:hover .brand-mark{transform:rotate(18deg)}.btn:hover,.place-open:hover,.month-grid button:hover,.gallery-filters button:hover{transform:translateY(-3px);box-shadow:0 8px 20px #20342b20}.flower-switch button:hover{transform:translateY(-2px)}
+.flower-switch button:before,.place-open:before{content:"✿";display:inline-block;margin-right:7px;color:#bc777b;transition:transform .25s}.flower-switch button[data-focus="osmanthus"]:before{color:#bb943e}.flower-switch button:hover:before,.place-open:hover:before{transform:rotate(35deg) scale(1.2)}.month-grid button[aria-pressed="true"]{background-image:radial-gradient(circle at 90% 16%,#cba956 1px,transparent 2px),radial-gradient(circle at 83% 26%,#cba956 1px,transparent 2px)}.season-photo[aria-pressed="true"]{outline:2px solid #34543e;outline-offset:2px}
+.origin-intro{border-left:3px solid var(--gold);padding:15px 21px;background:#fffcf6b8;margin:28px 0 28px}.origin-intro strong{color:var(--ink)}.why-grid{display:grid;gap:15px;margin-top:30px}.why-card{background:#fffcf6e8;border:1px solid #d8d6c9;padding:21px 24px;position:relative}.why-card:before{content:attr(data-icon);position:absolute;right:20px;top:10px;font-family:serif;font-size:36px;color:#c9ae78;opacity:.55}.why-card h3{font-size:18px;margin:0 0 6px}.why-card p{margin:0;color:#58675c;font-size:14px}.why-card strong{color:#34503e}.dual-rationale{background:#284536;color:#f6f2e9;padding:27px 29px;margin-top:17px}.dual-rationale h3{margin:0 0 8px;font-size:22px;font-weight:500}.dual-rationale p{margin:0;color:#dfebdc}.dual-rationale .mini-note{display:block;color:#c5d4c2;font-size:12px;margin-top:14px}
+.flower-description{font-size:14px;color:#536357}.flower-facts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:18px 0}.flower-facts div{border-top:1px solid #cbd0c3;padding-top:10px;font-size:13px}.flower-facts b{display:block;color:var(--ink)}.place-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:65px 0 20px}.place-heading h3{font-size:34px;font-weight:500;margin:8px 0 0}.place-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.place-card{background:#fffdf7;border:1px solid #d3d3c7;overflow:hidden}.place-cover{display:grid;grid-template-columns:2fr 1fr;gap:4px;height:220px}.place-cover img{width:100%;height:220px;object-fit:cover}.place-cover .mini-stack{display:grid;grid-template-rows:1fr 1fr;gap:4px;min-height:0}.place-cover .mini-stack img{height:108px}.place-content{padding:19px 22px 21px}.place-content h4{font-size:25px;font-weight:500;margin:3px 0 5px}.place-content p{font-size:14px;color:#5d695e;margin:0 0 14px}.place-open{border:1px solid var(--ink);background:var(--ink);color:#fff;padding:8px 16px;font-size:13px}
+.meaning-head{max-width:800px}.meaning-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:35px}.meaning-card{border:1px solid #d8d7ca;background:#fffcf6;overflow:hidden}.meaning-card img{width:100%;height:265px;object-fit:cover}.meaning-copy{padding:27px 31px 30px}.meaning-copy h3{font-size:33px;font-weight:500;margin:7px 0 10px}.meaning-copy p{margin:0 0 13px;color:#56665a}.meaning-copy ul{list-style:none;padding:0;margin:12px 0 0}.meaning-copy li{border-top:1px solid #d8d7ca;padding:9px 0;color:#536457;font-size:14px}.meaning-copy li strong{color:var(--ink)}.meaning-bridge{margin-top:18px;padding:26px 30px;background:#294737;color:#eaf2e6;display:grid;grid-template-columns:180px 1fr;gap:22px}.meaning-bridge h3{margin:0;font-size:27px;font-weight:500}.meaning-bridge p{margin:0;color:#e0ebde}
+.season-panel{grid-template-columns:.9fr 1.1fr}.season-panel img{height:390px}.season-copy{padding:29px 39px}.season-status{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:17px 0}.season-status article{border-top:2px solid #b98779;padding-top:8px}.season-status article+article{border-color:#b99544}.season-status b{font-size:13px}.season-status span{display:block;font-size:13px;color:#667467}.season-photo-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:14px}.season-photo{padding:0;border:1px solid #c8d0c4;background:#fff;text-align:left;overflow:hidden}.season-photo img{width:100%;height:100px;object-fit:cover}.season-photo span{display:block;padding:6px 9px;font-size:12px;color:#506052}.season-photo:hover,.season-photo:focus-visible{border-color:#305140;transform:translateY(-2px)}.season-footnote{font-size:12px;color:#6c796d;margin:16px 0 0}
+@media(max-width:900px){.place-grid,.meaning-grid{grid-template-columns:1fr}.meaning-bridge{grid-template-columns:1fr}.season-panel img{height:300px}.season-photo-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.origin-intro{padding:12px 15px}.why-card{padding:18px}.place-heading{margin-top:47px}.place-heading h3{font-size:29px}.place-cover{height:180px}.place-cover img{height:180px}.place-cover .mini-stack img{height:88px}.meaning-copy{padding:21px}.meaning-card img{height:210px}.meaning-bridge{padding:22px}.season-status{grid-template-columns:1fr}.season-photo img{height:75px}.season-copy{padding:25px}}
+
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* 编辑式版面：保留所有内容与互动，仅重排视觉层次 */
+:root{--paper:#f2eee5;--ink:#253b31;--gold:#a97732;--plum:#9e5660;--line:#d3d0c3;--white:#fffdf7}
+body{background:var(--paper)}
+.wrap{width:min(1260px,calc(100% - 72px))}
+.section{padding:125px 0}
+.section-title{font-size:clamp(44px,5.3vw,78px);line-height:1.12;letter-spacing:-.035em}
+.eyebrow{letter-spacing:.27em}
+.lead{font-size:18px;line-height:1.95}
+.topbar{height:78px;background:rgba(247,244,234,.88);border-bottom:1px solid #bfc9bb80;box-shadow:0 5px 25px #1f39270d}
+.topbar .brand-mark{border-radius:3px;transform:rotate(-10deg);width:34px;height:34px}
+.brand:hover .brand-mark{transform:rotate(10deg)}
+.nav{gap:6px}
+.nav a{padding:9px 15px;border-radius:999px;transition:background .2s,color .2s}
+.nav a:hover,.nav a:focus-visible{background:#dfe8d9;color:var(--ink)}
+.nav .nav-cta{margin-left:12px;border-radius:999px;background:#294537;color:#fff;border:1px solid #294537;padding:9px 19px}
+.nav .nav-cta:hover{background:#41654e;color:#fff}
+
+/* 首页像一本打开的城市画册：大标题与不等幅双图 */
+.hero{min-height:770px;background:linear-gradient(116deg,#f2eee5 0 56%,#e5dfd1 56% 100%)}
+.hero-grid{min-height:770px;grid-template-columns:.78fr 1.22fr;gap:0;align-items:stretch}
+.hero-copy{padding:110px 42px 84px 0;align-self:center}
+.hero .eyebrow{display:inline-block;border:1px solid #c5c4b6;padding:7px 12px;border-radius:999px;background:#f9f6ef}
+.hero h1{font-size:clamp(80px,9vw,148px);line-height:.97;letter-spacing:-.12em;margin:34px 0 32px}
+.hero h1 span:nth-child(2){white-space:nowrap}
+.hero h1 em{color:#ad803f}
+.hero p{max-width:420px}
+.hero-actions{margin-top:39px}
+.hero-actions .btn{border-radius:999px;padding:12px 22px}
+.hero-media{height:100%;min-height:700px;margin-right:-50px}
+.hero-media:before{inset:6% 13% 16% 6%;transform:rotate(7deg);background:#c9d1bd;border-radius:48% 48% 5% 5%}
+.hero-main{inset:9% 7% 14% 9%;width:84%;height:77%;border-radius:46% 46% 3px 3px;filter:saturate(.89) contrast(1.03);box-shadow:0 22px 42px #20362925}
+.hero-inset{width:37%;height:39%;right:0;bottom:0;border:8px solid #f2eee5;border-radius:48% 48% 3px 3px;box-shadow:0 16px 38px #20362939}
+.hero-vertical{left:1%;bottom:13%;padding:16px 9px;letter-spacing:.35em;background:#f8f5ea}
+.hero-index{top:11%;right:9%;border-radius:999px;padding:8px 14px}
+.intro-band{padding:23px 0;background:#294537}
+.intro-band .wrap{max-width:1080px}
+.intro-band strong{font-family:"Songti SC","SimSun",serif;font-size:19px;letter-spacing:.08em}
+
+/* 第一章：时间轴与理由卡形成报刊式不对称节奏 */
+.origin{background:#f9f6ee}
+.story-grid{grid-template-columns:minmax(280px,.72fr) minmax(0,1.28fr);gap:8vw}
+.story-sticky{top:115px}
+.origin .section-title{font-size:clamp(50px,5.2vw,78px)}
+.origin-intro{background:transparent;border-left:0;border-top:3px solid #b18a50;padding:18px 0;margin-top:32px}
+.timeline{display:grid;grid-template-columns:1fr 1fr;gap:12px;border:0;padding:0;margin-top:44px}
+.moment{background:#e8eadd;border-top:3px solid #8da184;padding:22px 20px 24px;min-height:235px}
+.moment:before{display:none}
+.moment .year{font-size:39px}
+.moment h3{font-size:19px;line-height:1.4}
+.moment p{font-size:13px;line-height:1.75}
+.why-grid{grid-template-columns:1fr 1fr;gap:12px;margin-top:0}
+.why-card{min-height:220px;background:#fffdf8;border:1px solid #e0dfd2;box-shadow:0 8px 22px #20362509}
+.why-card:first-child{grid-column:1/-1;min-height:190px;padding:30px 36px}
+.why-card:first-child p{max-width:720px}
+.why-card h3{font-size:18px;padding-right:28px}
+.why-card p{line-height:1.9}
+.why-card:before{font-size:48px;right:18px;top:7px}
+.dual-rationale{margin:12px 0 0 10%;padding:32px 35px;background:#315242;box-shadow:-10px 10px 0 #c5aa76}
+.dual-rationale h3{font-size:27px}
+
+/* 第二章：双花错位与地点缩略画册 */
+.flowers{background:#e6e8dd}
+.flower-head{align-items:start;margin-bottom:48px}
+.flower-head .section-title{max-width:720px}
+.flower-switch{background:#f9f8ef;padding:5px;position:sticky;top:95px;z-index:3}
+.flower-grid{grid-template-columns:1fr 1fr;gap:38px;align-items:start}
+.flower-card{border:0;background:#fffdf7;box-shadow:0 16px 50px #28433213}
+.flower-card:nth-child(2){margin-top:110px}
+.flower-card.is-active{box-shadow:0 26px 55px #2843322d}
+.flower-image{height:420px}
+.flower-card:first-child .flower-image img{object-position:center 42%}
+.flower-body{padding:29px 35px 34px}
+.flower-body h3{font-size:52px}
+.flower-body p{min-height:0}
+.flower-facts{gap:20px}
+.place-heading{margin:105px 0 27px;padding-top:33px;border-top:1px solid #aeb8a8}
+.place-heading h3{font-size:clamp(34px,3.9vw,55px)}
+.place-grid{grid-template-columns:1.14fr .86fr;gap:25px;align-items:start}
+.place-card{border:0;box-shadow:0 14px 38px #1f392516}
+.place-card:nth-child(2){margin-top:65px}
+.place-card:first-child .place-cover{height:270px}
+.place-card:first-child .place-cover>img{height:270px}
+.place-card:first-child .mini-stack img{height:133px}
+.place-cover{height:238px}
+.place-cover img{height:238px}
+.place-cover .mini-stack img{height:116px}
+.place-content{padding:24px 28px 29px}
+.place-content h4{font-size:31px}
+.place-open{border-radius:999px;padding:10px 17px}
+
+/* 第三章：文化意义像相互呼应的两张书页 */
+.meaning{background:#f5f0e5}
+.meaning-head{max-width:860px;margin-left:7%}
+.meaning-head .lead{max-width:680px}
+.meaning-grid{grid-template-columns:1.05fr .95fr;gap:30px;margin-top:65px;align-items:start}
+.meaning-card{border:0;background:#fffdf7;box-shadow:0 20px 60px #20362513}
+.meaning-card:nth-child(2){margin-top:84px}
+.meaning-card:first-child img{height:345px}
+.meaning-card:nth-child(2) img{height:265px}
+.meaning-copy{padding:33px 37px 39px}
+.meaning-copy h3{font-size:43px}
+.meaning-copy p{line-height:1.9}
+.meaning-bridge{position:relative;z-index:2;margin:-16px 7% 0 11%;padding:34px 39px;grid-template-columns:155px 1fr;box-shadow:10px 10px 0 #c8ad78}
+.meaning-bridge h3{font-size:32px}
+
+/* 第四章：保持原有九张照片与筛选，改成图片杂志墙 */
+.gallery{background:#f9f8f3}
+.gallery-head{align-items:end}
+.gallery-head .section-title{max-width:800px}
+.gallery-filters{align-self:end}
+.gallery-filters button{border-radius:999px;padding:9px 17px}
+.gallery-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:23px 17px;grid-auto-flow:dense;margin-top:43px}
+.gallery-item{grid-column:span 4}
+.gallery-item:nth-child(1),.gallery-item:nth-child(7),.gallery-item:nth-child(9){grid-column:span 8}
+.gallery-open{border-radius:2px}
+.gallery-open img{height:250px}
+.gallery-item:nth-child(1) img,.gallery-item:nth-child(2) img{height:390px}
+.gallery-item:nth-child(6) img,.gallery-item:nth-child(7) img,.gallery-item:nth-child(8) img,.gallery-item:nth-child(9) img{height:340px}
+.gallery-item figcaption{border-top:1px solid #cbd1c6;margin-top:10px;padding-top:8px}
+
+/* 第五章：月份像时间刻度，照片像可翻阅的索引 */
+.season{background:#e9ecdf}
+.month-grid{gap:0;border-top:1px solid #aab8a7;border-bottom:1px solid #aab8a7;margin-top:40px}
+.month-grid button{border:0;border-right:1px solid #c4cec0;background:transparent;padding:20px 2px 17px;font-size:15px;font-weight:600}
+.month-grid button:first-child{border-left:1px solid #c4cec0}
+.month-grid button[aria-pressed="true"]{background-color:#2c4a3a;color:#fff;transform:translateY(-7px);box-shadow:0 10px 22px #27433332;border-radius:3px}
+.season-panel{grid-template-columns:1.05fr .95fr;margin-top:35px;min-height:420px;box-shadow:0 15px 40px #253b3113}
+.season-panel img{height:420px}
+.season-copy{padding:34px 42px}
+.season-copy h3{font-size:clamp(32px,3vw,45px)}
+.season-status{margin-top:24px}
+.season-photo-grid{grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0 0 8%}
+.season-photo{box-shadow:0 7px 16px #2036250c}
+.season-photo img{height:115px}
+.season-photo span{padding:8px 11px}
+.season-footnote{max-width:1000px;line-height:1.8;margin-top:21px}
+
+/* 后续互动内容延续同一排版语言 */
+.walk-grid{grid-template-columns:1.08fr .92fr;gap:25px;align-items:start}
+.walk-card{min-height:360px;border:0}
+.walk-card:nth-child(2){margin-top:66px}
+.walk-card-content{padding:32px}
+.walk-card h3{font-size:35px}
+.walk-card button{border-radius:999px;padding:10px 18px}
+.progress{border-top:1px solid #78917b;padding-top:24px}
+.quiz-layout{grid-template-columns:.7fr 1.3fr;gap:9vw}
+.quiz-box{border-top:4px solid #a67c3e;border-left:0;border-right:0;border-bottom:0;box-shadow:0 15px 35px #20362512;padding:43px}
+.choice{border-radius:4px}
+.reflection-layout{grid-template-columns:.62fr 1.38fr;gap:7vw}
+.reflection-paper{box-shadow:16px 16px 0 #d0d2c3;padding:48px 52px}
+
+@media(max-width:1050px){
+  .wrap{width:min(100% - 50px,1260px)}
+  .hero-grid{grid-template-columns:.9fr 1.1fr}
+  .hero-copy{padding-right:12px}
+  .hero h1{font-size:clamp(70px,9vw,115px)}
+  .hero-media{margin-right:-25px}
+  .story-grid{gap:4vw}
+  .flower-image{height:330px}
+  .meaning-copy{padding:26px}
+}
+@media(max-width:900px){
+  .section{padding:86px 0}
+  .hero{min-height:0}
+  .hero-grid{min-height:0;grid-template-columns:1fr;gap:0}
+  .hero-copy{padding:70px 0 30px}
+  .hero h1{font-size:clamp(76px,12vw,124px)}
+  .hero-media{height:550px;min-height:0;margin:0 -25px}
+  .hero-main{inset:6% 10% 15% 10%;width:80%;height:79%}
+  .hero-inset{right:6%;bottom:0}
+  .story-grid{grid-template-columns:1fr;gap:28px}
+  .story-sticky{position:static}
+  .origin .section-title{max-width:650px}
+  .timeline{margin-top:25px}
+  .flower-grid,.place-grid,.meaning-grid,.walk-grid{gap:20px}
+  .meaning-head{margin-left:0}
+  .gallery-item,.gallery-item:nth-child(1),.gallery-item:nth-child(7),.gallery-item:nth-child(9){grid-column:span 6}
+  .gallery-item:nth-child(n) img{height:290px}
+  .season-panel{grid-template-columns:1fr}
+  .season-panel img{height:330px}
+  .season-photo-grid{margin-left:0}
+  .quiz-layout,.reflection-layout{grid-template-columns:1fr;gap:28px}
+}
+@media(max-width:650px){
+  .wrap{width:calc(100% - 34px)}
+  .topbar{height:62px}
+  .section{padding:70px 0}
+  .section-title{font-size:clamp(35px,9vw,50px)}
+  .hero-copy{padding:50px 0 20px}
+  .hero h1{font-size:clamp(63px,14vw,88px);margin:26px 0}
+  .hero-media{height:385px;margin:0 -17px}
+  .hero-main{inset:6% 10% 16% 9%;width:80%;height:78%}
+  .hero-inset{height:43%;width:40%;border-width:5px}
+  .hero-vertical{left:2%;bottom:10%;font-size:9px}
+  .hero-index{top:10%;font-size:9px}
+  .intro-band strong{font-size:12px}
+  .timeline,.why-grid,.flower-grid,.place-grid,.meaning-grid,.walk-grid{grid-template-columns:1fr}
+  .why-card:first-child{grid-column:auto;min-height:0;padding:21px 24px}
+  .why-card{min-height:0}
+  .moment{min-height:0}
+  .dual-rationale{margin-left:0;padding:24px;box-shadow:7px 7px 0 #c5aa76}
+  .flower-head{margin-bottom:25px}
+  .flower-switch{position:static}
+  .flower-card:nth-child(2),.place-card:nth-child(2),.meaning-card:nth-child(2),.walk-card:nth-child(2){margin-top:0}
+  .flower-image{height:265px}
+  .flower-body{padding:24px}
+  .flower-body h3{font-size:42px}
+  .place-heading{margin-top:65px}
+  .place-heading h3{font-size:32px}
+  .place-cover,.place-cover img,.place-card:first-child .place-cover,.place-card:first-child .place-cover>img{height:200px}
+  .place-cover .mini-stack img,.place-card:first-child .mini-stack img{height:98px}
+  .meaning-grid{margin-top:35px}
+  .meaning-card:first-child img,.meaning-card:nth-child(2) img{height:235px}
+  .meaning-copy h3{font-size:36px}
+  .meaning-bridge{margin:16px 0 0;grid-template-columns:1fr;padding:25px;box-shadow:7px 7px 0 #c8ad78}
+  .gallery-grid{grid-template-columns:1fr;gap:20px}
+  .gallery-item,.gallery-item:nth-child(1),.gallery-item:nth-child(7),.gallery-item:nth-child(9){grid-column:auto}
+  .gallery-item:nth-child(n) img{height:255px}
+  .month-grid{grid-template-columns:repeat(6,1fr)}
+  .month-grid button{padding:12px 0;font-size:13px}
+  .month-grid button[aria-pressed="true"]{transform:translateY(-3px)}
+  .season-panel{margin-top:20px}
+  .season-panel img{height:255px}
+  .season-copy{padding:25px}
+  .season-photo-grid{grid-template-columns:repeat(2,1fr)}
+  .season-photo img{height:95px}
+  .walk-card{min-height:300px}
+  .quiz-box{padding:27px}
+  .reflection-paper{padding:28px;box-shadow:7px 7px 0 #d0d2c3}
+}
+
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="wrap"><a class="brand" href="#top" aria-label="返回首页"><span class="brand-mark">台</span><span>走近台州市花</span></a><nav class="nav" aria-label="主导航"><a href="#origin">由来</a><a href="#flowers">双花</a><a href="#compare">城市意义</a><a class="nav-cta" href="#walk">开始赏花 ↗</a></nav></div></header>
+  <main id="top">
+    <section class="hero"><div class="wrap hero-grid"><div class="hero-copy"><div class="eyebrow">TAIZHOU · CITY FLOWERS · 1998</div><h1 class="serif"><span>一城，</span><span>两种<em>花</em>。</span></h1><p>从早春城墙边的梅花，到秋日街巷里的桂香。走近浙江台州，读懂两种市花如何连接山海、古城与日常生活。</p><div class="hero-actions"><a class="btn" href="#origin">阅读双花故事 <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="#quiz">先来答题</a></div><p class="small" style="margin-top:39px">台州 · 浙江东南沿海　/　桂花 × 梅花</p></div><div class="hero-media" aria-label="台州府城梅花与桂花实景照片"><img class="hero-main" src="assets/taizhou-plum-hero.jpg" alt="台州府城墙依山蜿蜒，城墙旁梅花盛开"><img class="hero-inset" src="assets/taizhou-osmanthus-city.jpeg" alt="台州城市建筑旁盛开的桂花"><span class="hero-vertical">从一枝早春到一城秋香</span><span class="hero-index">01 / 山海台州</span></div></div></section>
+    <div class="intro-band"><div class="wrap"><strong>梅花 · 早春的风骨</strong><span class="dot">✦</span><strong>桂花 · 秋日的温度</strong></div></div>
+    <section id="origin" class="section origin"><div class="wrap story-grid"><div class="story-sticky"><div class="eyebrow">01 / THE ORIGIN</div><h2 class="section-title serif">为什么台州<br>有两种市花？</h2><p class="lead">1998 年，台州根据市民投票选定梅花与桂花。本页再从自然、文化和生活三个角度，读懂这份“双花选择”。</p><div class="origin-intro"><strong>史实与解读</strong><br>“市民投票选定双市花”有本地报道依据；花与城市气质的联系，是结合实地花景与文化资料所作的设计解读。</div><div class="timeline"><article class="moment"><div class="year">1994</div><h3>台州设立地级市</h3><p>由多片城区、古城与山海空间共同组成的台州，需要能够被市民共同认识的城市象征。</p></article><article class="moment"><div class="year">1998</div><h3>市民投票选出双花</h3><p>台州本地媒体回顾：市人大常委会依据市民投票，确定梅花、桂花为市花，樟树为市树。</p></article></div></div><div><div class="why-grid"><article class="why-card" data-icon="山"><h3>01 自然环境：山海之间，两季有花</h3><p>台州既有山地与临海古城，也有沿海城区和日常绿地。<strong>梅花先于叶开放，桂树四季常绿、秋天散香</strong>，两种花让城市自然景观从冬春延伸到秋季；一枝可细看，一树可闻香。</p></article><article class="why-card" data-icon="文"><h3>02 历史文化：古城记忆与雅致花意</h3><p>临海府城墙、台州府城梅园给梅花提供可见的历史场景；梅在中国文化里常与迎春、坚韧相连。桂花在传统文化中有“折桂”等美好意象，能将城市的历史韵味延伸到街巷与庭园。</p></article><article class="why-card" data-icon="人"><h3>03 社会生活：一场赏花，一路花香</h3><p>梅园是人们早春走出家门、赏景拍照的目的地；桂花则分布在市民广场、江滨公园等熟悉的公共空间。<strong>一种值得专程去看，一种在日常路上就能遇见</strong>，共同进入市民的生活记忆。</p></article></div><div class="dual-rationale"><h3 class="serif">为什么选择梅花与桂花？</h3><p>梅花的早春、枝骨和府城实景，适合表达台州的历史纵深与迎新精神；桂花的秋香、常绿和城市绿地场景，适合表达温润、亲近的生活气息。两者花期、观看方式和空间体验各不相同，放在一起，城市形象更完整。</p><span class="mini-note">以上为调研后的文化解读，不作为当年评选的官方理由。</span></div></div></div></section>
+    <section id="flowers" class="section flowers"><div class="wrap"><div class="flower-head"><div><div class="eyebrow">02 / MEET THE FLOWERS</div><h2 class="section-title serif">走近梅花与桂花</h2><p class="lead">认识花的样子、生长节奏，也走到台州真实的赏花地点。</p></div><div class="flower-switch" role="group" aria-label="切换市花"><button type="button" data-focus="plum" aria-pressed="true">梅花 · 春</button><button type="button" data-focus="osmanthus" aria-pressed="false">桂花 · 秋</button></div></div><div class="flower-grid"><article class="flower-card is-active" id="plum-card"><div class="flower-image"><img src="assets/plum-detail-final.jpg" alt="台州古建筑旁的梅花" loading="lazy"><span class="tag">冬末春初 · 临海</span></div><div class="flower-body"><span class="latin">Prunus mume</span><h3 class="serif">梅花</h3><p class="flower-description">蔷薇科落叶小乔木。花多先于叶开放，白、粉、红等颜色点亮尚显疏朗的枝条；5—6 月还可见梅果。临海府城的梅景把花与石墙、山势放在同一个画面里。</p><div class="flower-facts"><div>看花的方式<b>细看花瓣与枝形</b></div><div>适合的季节<b>冬末至早春</b></div></div><div class="flower-meta"><div><span>城市印象</span><br><b>迎春 · 风骨</b></div><div><span>走近地点</span><br><b>台州府城梅园</b></div></div></div></article><article class="flower-card" id="osmanthus-card"><div class="flower-image"><img src="assets/osmanthus-detail-final.jpg" alt="浅黄色桂花簇生在深绿色叶片间" loading="lazy"><span class="tag">秋季 · 台州</span></div><div class="flower-body"><span class="latin">Osmanthus fragrans</span><h3 class="serif">桂花</h3><p class="flower-description">木犀科常绿乔木或灌木。小花成簇，藏在革质叶片之间，通常在 9—10 月开放，以香气先于花形被人察觉。公园、广场与街道让这份花香融入日常。</p><div class="flower-facts"><div>认识它的方式<b>先闻香，再找花</b></div><div>适合的季节<b>秋季</b></div></div><div class="flower-meta"><div><span>城市印象</span><br><b>温润 · 亲近</b></div><div><span>走近地点</span><br><b>市民广场、江滨公园</b></div></div></div></article></div><div class="place-heading"><div><div class="eyebrow">STEP INTO THE PLACES</div><h3 class="serif">走进地点，点开照片看细节</h3></div><span class="small">每组 3 张 · 可左右切换</span></div><div class="place-grid"><article class="place-card"><div class="place-cover"><img src="assets/taizhou-plum-hero.jpg" alt="临海府城墙边的梅花" loading="lazy"><div class="mini-stack"><img src="assets/plum-detail-final.jpg" alt="屋檐下的梅花" loading="lazy"><img src="assets/plum-wall-3-final.jpg" alt="游客经过梅花与城墙" loading="lazy"></div></div><div class="place-content"><div class="eyebrow">临海 · 早春</div><h4 class="serif">台州府城梅园</h4><p>沿城墙与山坡看花，也能在照片里找到古城、梅枝和游客之间的关系。</p><button class="place-open" type="button" data-place="plum">查看府城梅景 3 张 →</button></div></article><article class="place-card"><div class="place-cover"><img src="assets/osmanthus-local-1-final.jpg" alt="台州街巷中的桂花树" loading="lazy"><div class="mini-stack"><img src="assets/osmanthus-local-4-final.jpg" alt="台州桂花近景" loading="lazy"><img src="assets/osmanthus-local-6-final.jpg" alt="桂花树下休息的市民" loading="lazy"></div></div><div class="place-content"><div class="eyebrow">椒江 · 秋日</div><h4 class="serif">市民广场与江滨公园</h4><p>本地赏桂报道提到的公共空间。照片呈现台州街巷、公园树荫与桂花近景。</p><button class="place-open" type="button" data-place="osmanthus">查看城市桂香 3 张 →</button></div></article></div></div></section>
+    <section id="compare" class="section meaning"><div class="wrap"><div class="meaning-head"><div class="eyebrow">03 / CITY CHARACTER</div><h2 class="section-title serif">两种市花，承载怎样的台州？</h2><p class="lead">花是可见、可闻的城市符号。沿着真实花景，读出它们各自代表的城市特色与文化意义。</p></div><div class="meaning-grid"><article class="meaning-card"><img src="assets/plum-wall-2-final.jpg" alt="梅花与台州府城墙和现代城市" loading="lazy"><div class="meaning-copy"><div class="eyebrow">梅花 / 早春</div><h3 class="serif">古城的风骨</h3><p>梅花在寒意未退时先开，疏朗的枝干与临海府城墙的线条相映。它使“历史台州”有了一个可以亲自走近的画面。</p><ul><li><strong>城市特色：</strong>府城遗存、山城层次、早春花景</li><li><strong>文化意义：</strong>迎春、坚韧、在时间中延续的生命力</li><li><strong>市民体验：</strong>相约赏梅，重走古城步道</li></ul></div></article><article class="meaning-card"><img src="assets/osmanthus-local-6-final.jpg" alt="台州市民在桂花树下休憩" loading="lazy"><div class="meaning-copy"><div class="eyebrow">桂花 / 秋日</div><h3 class="serif">街巷的温度</h3><p>桂花花小香远，常绿的树冠进入公园、广场与街道。它使“生活台州”成为一段能被气味唤起的日常记忆。</p><ul><li><strong>城市特色：</strong>公共绿地、街巷休憩、秋季花香</li><li><strong>文化意义：</strong>亲近、团聚与传统“折桂”的美好祝愿</li><li><strong>市民体验：</strong>路过闻香，停步寻找叶间小花</li></ul></div></article></div><div class="meaning-bridge"><h3 class="serif">一城双花</h3><p>梅花给台州一条回望古城的线索，桂花让人感到城市生活的温度。它们分别从“可走访的历史”和“可分享的日常”出发，组成这座山海城市更立体的文化形象。以上象征意义为本页解读。</p></div></div></section>
+        <section id="gallery" class="section gallery"><div class="wrap"><div class="gallery-head"><div><div class="eyebrow">04 / REAL PHOTOS</div><h2 class="section-title serif">在真实照片里，遇见两种花</h2><p class="lead">从古城墙到街巷树荫。选择花种浏览，点击照片可以放大。</p></div><div class="gallery-filters" role="group" aria-label="筛选照片"><button type="button" data-filter="all" aria-pressed="true">全部 9 张</button><button type="button" data-filter="plum" aria-pressed="false">只看梅花</button><button type="button" data-filter="osmanthus" aria-pressed="false">只看桂花</button></div></div><div class="gallery-grid">
+      <figure class="gallery-item" data-category="plum"><button class="gallery-open" type="button" data-title="府城墙边的梅花" data-note="梅花沿城墙与山势铺开。" data-source="https://en.youth.cn/RightNow/202502/t20250211_15820570.htm" aria-label="放大：府城墙边的梅花"><img src="assets/taizhou-plum-hero.jpg" alt="台州府城墙沿着开满梅花的山坡蜿蜒" loading="lazy"></button><figcaption><span>府城墙边的梅花</span><span>梅 · 临海</span></figcaption></figure>
+      <figure class="gallery-item" data-category="osmanthus"><button class="gallery-open" type="button" data-title="城市建筑前的桂花" data-note="桂花进入现代台州的城市街景。" data-source="https://www.sohu.com/a/955783994_121106832" aria-label="放大：城市建筑前的桂花"><img src="assets/taizhou-osmanthus-city.jpeg" alt="台州现代建筑旁的桂花枝" loading="lazy"></button><figcaption><span>城市建筑前的桂花</span><span>桂 · 台州</span></figcaption></figure>
+      <figure class="gallery-item" data-category="plum"><button class="gallery-open" type="button" data-title="古建筑旁的梅枝" data-note="粉白梅花与传统屋檐相互映衬。" data-source="https://tz.zjol.com.cn/tzxw/202502/t20250215_30828455.shtml" aria-label="放大：古建筑旁的梅枝"><img src="assets/plum-detail-final.jpg" alt="台州古建筑屋檐旁的粉白梅花" loading="lazy"></button><figcaption><span>古建筑旁的梅枝</span><span>梅 · 台州</span></figcaption></figure>
+      <figure class="gallery-item" data-category="osmanthus"><button class="gallery-open" type="button" data-title="巷口桂树" data-note="桂花与石墙、街道一起构成秋日的城市场景。" data-source="https://tz.zjol.com.cn/tzxw/202410/t20241009_30570007.shtml" aria-label="放大：巷口桂树"><img src="assets/osmanthus-local-1-final.jpg" alt="台州传统建筑旁开花的桂树" loading="lazy"></button><figcaption><span>巷口桂树</span><span>桂 · 台州</span></figcaption></figure>
+      <figure class="gallery-item" data-category="plum"><button class="gallery-open" type="button" data-title="梅园与城市" data-note="从梅园向外眺望，可见古城与现代城区。" data-source="https://en.youth.cn/RightNow/202502/t20250211_15820570_1.htm" aria-label="放大：梅园与城市"><img src="assets/plum-wall-2-final.jpg" alt="梅花盛放的台州府城墙与远处城市建筑" loading="lazy"></button><figcaption><span>梅园与城市</span><span>梅 · 临海</span></figcaption></figure>
+      <figure class="gallery-item" data-category="osmanthus"><button class="gallery-open" type="button" data-title="一枝桂花" data-note="近看桂花，细小花朵藏在厚实的叶片之间。" data-source="https://commons.wikimedia.org/wiki/File:Osmanthus_fragrans.jpg" aria-label="放大：一枝桂花"><img src="assets/osmanthus-detail-final.jpg" alt="浅黄色桂花花簇与深绿叶片特写" loading="lazy"></button><figcaption><span>一枝桂花</span><span>桂 · 植物特写</span></figcaption></figure>
+      <figure class="gallery-item" data-category="plum"><button class="gallery-open" type="button" data-title="城墙上的赏梅人" data-note="古城墙旁的梅花吸引游人驻足。" data-source="https://jinan.dzwww.com/xinwenzhutu/ztjj/202502/t20250211_15503485.html" aria-label="放大：城墙上的赏梅人"><img src="assets/plum-wall-3-final.jpg" alt="游人行走在临海城墙上，旁边大片梅花盛开" loading="lazy"></button><figcaption><span>城墙上的赏梅人</span><span>梅 · 临海</span></figcaption></figure>
+      <figure class="gallery-item" data-category="osmanthus"><button class="gallery-open" type="button" data-title="金桂盛放" data-note="橙黄色桂花在绿叶间成簇绽放。" data-source="https://tz.zjol.com.cn/tzxw/202410/t20241009_30570007.shtml" aria-label="放大：金桂盛放"><img src="assets/osmanthus-local-4-final.jpg" alt="台州本地橙黄色桂花与绿叶" loading="lazy"></button><figcaption><span>金桂盛放</span><span>桂 · 台州</span></figcaption></figure>
+      <figure class="gallery-item" data-category="osmanthus"><button class="gallery-open" type="button" data-title="树荫下的日常" data-note="桂花树下的人们把城市花景变成生活场景。" data-source="https://tz.zjol.com.cn/tzxw/202410/t20241009_30570007.shtml" aria-label="放大：树荫下的日常"><img src="assets/osmanthus-local-6-final.jpg" alt="台州市民坐在桂花树荫下交谈休憩" loading="lazy"></button><figcaption><span>树荫下的日常</span><span>桂 · 台州</span></figcaption></figure>
+    </div></div></section>
+    <dialog class="lightbox" id="lightbox" aria-label="照片放大浏览"><div class="lightbox-inner"><img class="lightbox-image" id="lightbox-image" alt=""><div class="lightbox-side"><button class="lightbox-close" type="button" id="lightbox-close" aria-label="关闭图片">关闭 ×</button><h3 class="serif" id="lightbox-title"></h3><p id="lightbox-note"></p><a id="lightbox-source" href="#" target="_blank" rel="noopener">查看照片来源 ↗</a><div class="lightbox-controls"><button type="button" id="lightbox-prev" aria-label="上一张照片">← 上一张</button><button type="button" id="lightbox-next" aria-label="下一张照片">下一张 →</button></div></div></div></dialog>
+
+<section id="season" class="section season"><div class="wrap"><div class="eyebrow">05 / BLOOM CALENDAR</div><h2 class="section-title serif">一整年，两种花怎样变化？</h2><p class="lead">点选 1—12 月，观察梅花与桂花从花、叶到果与花芽的变化。照片展示台州花景及植物细节；非花期照片用于观察环境与叶片，并非对应月份的实拍记录。</p><div class="month-grid" role="group" aria-label="选择月份"><button type="button" data-month="1" aria-pressed="false">1月</button><button type="button" data-month="2" data-bloom="plum" aria-pressed="true">2月</button><button type="button" data-month="3" aria-pressed="false">3月</button><button type="button" data-month="4" aria-pressed="false">4月</button><button type="button" data-month="5" aria-pressed="false">5月</button><button type="button" data-month="6" aria-pressed="false">6月</button><button type="button" data-month="7" aria-pressed="false">7月</button><button type="button" data-month="8" aria-pressed="false">8月</button><button type="button" data-month="9" data-bloom="osmanthus" aria-pressed="false">9月</button><button type="button" data-month="10" data-bloom="osmanthus" aria-pressed="false">10月</button><button type="button" data-month="11" aria-pressed="false">11月</button><button type="button" data-month="12" aria-pressed="false">12月</button></div><div class="season-panel" aria-live="polite"><img id="season-image" src="assets/plum-wall-2-final.jpg" alt="台州府城墙旁盛开的梅花"><div class="season-copy"><div class="eyebrow" id="season-kicker">02 / 冬春交界</div><h3 class="serif" id="season-title">府城梅花，迎来花时</h3><p id="season-description">二月的台州府城梅园常能看到梅花与城墙相映。开放早晚随气温变化，出行前请查看当年的花讯。</p><div class="season-status"><article><b>梅花</b><span id="season-plum">冬末春初开放，进入赏花时段</span></article><article><b>桂花</b><span id="season-osmanthus">常绿叶片维持城市的绿意</span></article></div><small id="season-hint">参考：台州 2025 年 2 月赏梅报道；月份仅作观察参考。</small></div></div><div class="season-photo-grid" role="group" aria-label="查看相关照片"><button type="button" class="season-photo" data-season-photo="0"><img src="assets/taizhou-plum-hero.jpg" alt="府城墙与梅花"><span>府城与梅花</span></button><button type="button" class="season-photo" data-season-photo="1"><img src="assets/plum-detail-final.jpg" alt="屋檐边的梅枝"><span>细看梅枝</span></button><button type="button" class="season-photo" data-season-photo="2"><img src="assets/osmanthus-local-2-v2.jpg" alt="台州桂树叶片与落花"><span>桂树叶与落花</span></button><button type="button" class="season-photo" data-season-photo="3"><img src="assets/osmanthus-local-5-v2.jpg" alt="台州秋季街道"><span>街道的季节感</span></button></div><p class="season-footnote">提示：不同品种、海拔与当年气温都会改变开花时间；桂花以秋桂的常见花期为主，四季桂等品种可多次开花。植物生长阶段参考高校与园林科普，台州赏花照片另见资料来源。</p></div></section>
+
+    <section id="walk" class="section walk"><div class="wrap"><div class="eyebrow">04 / FLOWER WALK</div><h2 class="section-title serif">一条跨越春秋的赏花路线</h2><p class="lead">按季节收集两枚花章。地点和季节参考台州本地文旅报道，出行前请查看当年的花期与开放信息。</p><div class="walk-grid"><article class="walk-card"><img src="assets/taizhou-plum-hero.jpg" alt="台州府城墙梅花盛开" loading="lazy"><div class="walk-card-content"><div><div class="eyebrow" style="color:#f5d3d0">SPRING / 早春</div><h3 class="serif">临海 · 台州府城梅园</h3><p>沿古城墙看梅花，留意粉白花枝与石墙、山势的层次。</p></div><button type="button" data-stamp="plum" aria-pressed="false">收集梅花章 ＋</button></div></article><article class="walk-card"><img src="assets/taizhou-osmanthus-city.jpeg" alt="城市街景中的桂花树" loading="lazy"><div class="walk-card-content"><div><div class="eyebrow" style="color:#f2d897">AUTUMN / 秋日</div><h3 class="serif">椒江 · 市民广场</h3><p>慢慢走过桂花树下，试着先闻花香，再寻找藏在叶间的小花。</p></div><button type="button" data-stamp="osmanthus" aria-pressed="false">收集桂花章 ＋</button></div></article></div><div class="progress" aria-live="polite"><span id="stamp-text">已收集 0 / 2 枚花章</span><div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div><span>梅花 × 桂花 = 台州的四季记忆</span></div></div></section>
+    <section id="quiz" class="section"><div class="wrap quiz-layout"><div><div class="eyebrow">05 / LITTLE QUIZ</div><h2 class="section-title serif">你读懂台州双花了吗？</h2><p class="lead">三道小题，回顾市花的由来和两种花承载的城市记忆。</p></div><div class="quiz-box"><span class="question-number" id="question-number">QUESTION 01 / 03</span><h3 id="question-title">台州的两种市花是什么？</h3><div class="choices" id="choices"></div><p class="quiz-feedback" id="quiz-feedback" aria-live="polite"></p><button class="btn quiz-next" id="quiz-next" type="button">下一题 →</button></div></div></section>
+    <section id="reflection" class="section reflection"><div class="wrap reflection-layout"><div><div class="eyebrow">06 / DESIGN NOTE</div><h2 class="section-title serif">设计感想</h2><p class="lead">从资料判断、图片选择到界面交互，我希望网页中的每一种花都对应真实的台州生活。</p></div><div class="reflection-paper serif"><p>这次网页设计以“早春的梅花、金秋的桂花”为叙事线索。我原本以为市花只是一个好看的城市标志，查阅资料后才发现，它的确定与市民投票、城市环境和地方记忆有关。台州本地报道记载，1998年市人大常委会根据市民投票选定梅花和桂花为市花。这让我决定把“为什么是两种花”放在网页前半部分，而不只是展示花卉照片。</p><p>在内容安排上，我先在第一板块梳理双市花确立的过程，并从自然环境、历史文化和社会生活三个角度说明这项选择；第二板块介绍两种花和真实赏花地点；第三板块再比较它们承载的城市特色与文化意义。梅花与临海府城梅园的古城墙相连，容易让人联想到早春、坚韧和迎新；桂花则出现在广场和街道，花朵虽小，却以香气进入日常。我认为这两种不同的城市体验，能共同说明台州既有历史的厚度，也有生活的温度。</p><p>视觉上，我选用暖纸色作为底色，用深绿、桂金和梅粉分别呼应树叶与两种花。照片尽量选择可追溯的真实影像，并在页面末尾标明出处。互动部分没有只追求热闹：切换按钮帮助读者对照两种市花，地点相册可以放大浏览，一年花期卡让读者看到花期之外的生长，赏花章和小测帮助回顾重点。制作过程中我也注意到，公开资料对台州双市花的介绍有详有略，因此在网页中写明资料依据，把象征意义标为设计解读，不把推测写成官方结论。这个作品让我体会到，好的城市文化网页既要好看，也要让信息真实、清楚、容易被记住。</p></div></div></section>
+    <section class="sources"><div class="wrap"><div class="eyebrow">SOURCES & PHOTO CREDITS</div><h2 class="serif" style="font-size:27px;font-weight:500;margin:8px 0 13px">资料与图片来源</h2><div class="source-links"><a href="https://hynews.zjol.com.cn/hynews/system/2013/01/15/015961812.shtml" target="_blank" rel="noopener">黄岩新闻网｜1998 年双市花评选回顾 ↗</a><a href="https://tzsz.zjtz.gov.cn/art/2021/2/26/art_1229142720_54040692.html" target="_blank" rel="noopener">台州史志网｜台州历史沿革 ↗</a><a href="https://tz.zjol.com.cn/tzxw/202110/t20211029_23288760.shtml" target="_blank" rel="noopener">浙江在线·台州文旅｜桂花赏花地点 ↗</a><a href="https://tz.zjol.com.cn/tzxw/202502/t20250215_30828455.shtml" target="_blank" rel="noopener">浙江在线｜台州府城梅园 ↗</a><a href="https://www.zjtz.gov.cn/art/2025/4/10/art_1229049733_59103292.html" target="_blank" rel="noopener">台州市人民政府｜台州文化遗产 ↗</a><a href="https://www.kmu.edu.cn/info/1213/9544.htm" target="_blank" rel="noopener">昆明学院｜梅花物候与果期 ↗</a><a href="https://ylj.fuzhou.gov.cn/zwgk/ztzl/ylkp/202111/t20211109_4233935.htm" target="_blank" rel="noopener">福州市园林中心｜桂花品种与花期 ↗</a><a href="https://zlxb.zafu.edu.cn/fileZJNLDXXB/journal/article/zjnldxxb/2016/2/PDF/33-02-5.pdf" target="_blank" rel="noopener">浙江农林大学学报｜桂花花芽分化 ↗</a></div><p class="photo-credits">图片：台州府城梅景 © 中国青年网／CFP；古建筑旁梅花 © 浙江在线；台州街景桂花 © 国企动态；桂花特写 © Wikimedia Commons。补充照片来自浙江在线台州赏桂报道。图片仅用于本次课程作品展示，版权归原作者及机构所有。</p></div></section>
+  </main>
+  <footer class="footer"><div class="wrap"><span>走近台州市花 · 桂花与梅花</span><span>一城双花，四季有意。</span></div></footer>
+  <script>
+    const ASSETS={"PLUM_HERO": "assets/taizhou-plum-hero.jpg", "PLUM_DETAIL": "assets/plum-detail-final.jpg", "PLUM_WALL_2": "assets/plum-wall-2-final.jpg", "PLUM_WALL_3": "assets/plum-wall-3-final.jpg", "OSMANTHUS_CITY": "assets/taizhou-osmanthus-city.jpeg", "OSMANTHUS_DETAIL": "assets/osmanthus-detail-final.jpg", "OSMANTHUS_LOCAL_1": "assets/osmanthus-local-1-final.jpg", "OSMANTHUS_LOCAL_2": "assets/osmanthus-local-2-v2.jpg", "OSMANTHUS_LOCAL_3": "assets/osmanthus-local-3-v2.jpg", "OSMANTHUS_LOCAL_4": "assets/osmanthus-local-4-final.jpg", "OSMANTHUS_LOCAL_5": "assets/osmanthus-local-5-v2.jpg", "OSMANTHUS_LOCAL_6": "assets/osmanthus-local-6-final.jpg", "OSMANTHUS_LOCAL_7": "assets/osmanthus-local-7-v2.jpg"};
+
+    const focusButtons=[...document.querySelectorAll('[data-focus]')];
+    focusButtons.forEach(button=>button.addEventListener('click',()=>{const key=button.dataset.focus;focusButtons.forEach(item=>item.setAttribute('aria-pressed',String(item===button)));document.querySelectorAll('.flower-card').forEach(card=>card.classList.toggle('is-active',card.id===key+'-card'));document.getElementById(key+'-card').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});}));
+    const stamps=new Set();document.querySelectorAll('[data-stamp]').forEach(button=>button.addEventListener('click',()=>{const key=button.dataset.stamp;if(stamps.has(key)){stamps.delete(key)}else{stamps.add(key)}button.setAttribute('aria-pressed',String(stamps.has(key)));button.textContent=stamps.has(key)?'已收集花章 ✓':(key==='plum'?'收集梅花章 ＋':'收集桂花章 ＋');document.getElementById('stamp-text').textContent='已收集 '+stamps.size+' / 2 枚花章'+(stamps.size===2?' · 双花集齐！':'');document.getElementById('progress-fill').style.width=(stamps.size*50)+'%';}));
+    const galleryItems=[...document.querySelectorAll('.gallery-item')];let galleryFilter='all',lightboxIndex=0;const lightbox=document.getElementById('lightbox');function visibleGallery(){return galleryItems.filter(item=>!item.hidden)}function showLightboxItem(index){const current=visibleGallery();if(!current.length)return;lightboxIndex=(index+current.length)%current.length;const button=current[lightboxIndex].querySelector('.gallery-open');const img=button.querySelector('img');document.getElementById('lightbox-image').src=img.src;document.getElementById('lightbox-image').alt=img.alt;document.getElementById('lightbox-title').textContent=button.dataset.title;document.getElementById('lightbox-note').textContent=button.dataset.note;document.getElementById('lightbox-source').href=button.dataset.source}document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{galleryFilter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));galleryItems.forEach(item=>item.hidden=galleryFilter!=='all'&&item.dataset.category!==galleryFilter)}));galleryItems.forEach(item=>item.querySelector('.gallery-open').addEventListener('click',()=>{lightboxIndex=visibleGallery().indexOf(item);showLightboxItem(lightboxIndex);lightbox.showModal()}));document.getElementById('lightbox-close').addEventListener('click',()=>lightbox.close());document.getElementById('lightbox-prev').addEventListener('click',()=>showLightboxItem(lightboxIndex-1));document.getElementById('lightbox-next').addEventListener('click',()=>showLightboxItem(lightboxIndex+1));lightbox.addEventListener('click',event=>{if(event.target===lightbox)lightbox.close()});lightbox.addEventListener('keydown',event=>{if(event.key==='ArrowLeft')showLightboxItem(lightboxIndex-1);if(event.key==='ArrowRight')showLightboxItem(lightboxIndex+1)});
+    const placeSets={
+      plum:[
+        {src:ASSETS.PLUM_HERO,alt:'台州府城墙沿山坡蜿蜒，梅花盛开',title:'府城墙与梅花',note:'从城墙与山势看临海早春。',source:'https://en.youth.cn/RightNow/202502/t20250211_15820570.htm'},
+        {src:ASSETS.PLUM_DETAIL,alt:'传统屋檐旁的粉白梅花',title:'屋檐边的梅枝',note:'梅花与府城建筑细部相映。',source:'https://tz.zjol.com.cn/tzxw/202502/t20250215_30828455.shtml'},
+        {src:ASSETS.PLUM_WALL_3,alt:'游客从台州府城墙边的梅林经过',title:'城墙上的赏梅人',note:'花景进入市民与游客的春日生活。',source:'https://jinan.dzwww.com/xinwenzhutu/ztjj/202502/t20250211_15503485.html'}
+      ],
+      osmanthus:[
+        {src:ASSETS.OSMANTHUS_LOCAL_1,alt:'台州街巷里的桂花树',title:'街巷桂树',note:'本地报道中的台州秋日桂花景象。',source:'https://tz.zjol.com.cn/tzxw/202410/t20241009_30570007.shtml'},
+        {src:ASSETS.OSMANTHUS_LOCAL_4,alt:'台州桂花枝上的黄色小花',title:'叶间桂花',note:'走近才看清的小小花簇。',source:'https://tz.zjol.com.cn/tzxw/202410/t20241009_30570007.shtml'},
+        {src:ASSETS.OSMANTHUS_LOCAL_6,alt:'台州市民在桂花树下休憩',title:'桂树下的日常',note:'公共空间里的花香与休憩。',source:'https://tz.zjol.com.cn/tzxw/202410/t20241009_30570007.shtml'}
+      ]
+    };
+    let placeItems=null,placeIndex=0;
+    document.querySelectorAll('.place-open').forEach(button=>button.addEventListener('click',()=>{
+      placeItems=placeSets[button.dataset.place];placeIndex=0;renderPlacePhoto();lightbox.showModal();
+    }));
+    function renderPlacePhoto(){const item=placeItems[placeIndex];document.getElementById('lightbox-image').src=item.src;document.getElementById('lightbox-image').alt=item.alt;document.getElementById('lightbox-title').textContent=item.title+' · '+(placeIndex+1)+' / '+placeItems.length;document.getElementById('lightbox-note').textContent=item.note;document.getElementById('lightbox-source').href=item.source}
+    document.getElementById('lightbox-prev').addEventListener('click',()=>{if(placeItems){placeIndex=(placeIndex-1+placeItems.length)%placeItems.length;renderPlacePhoto()} });
+    document.getElementById('lightbox-next').addEventListener('click',()=>{if(placeItems){placeIndex=(placeIndex+1)%placeItems.length;renderPlacePhoto()} });
+    lightbox.addEventListener('close',()=>{placeItems=null});
+    lightbox.addEventListener('keydown',event=>{if(!placeItems)return;if(event.key==='ArrowLeft'){placeIndex=(placeIndex-1+placeItems.length)%placeItems.length;renderPlacePhoto()}if(event.key==='ArrowRight'){placeIndex=(placeIndex+1)%placeItems.length;renderPlacePhoto()}});
+    const seasonPhotos={
+      plum:[{src:ASSETS.PLUM_HERO,alt:'台州府城墙旁的梅花',label:'府城梅花'},{src:ASSETS.PLUM_DETAIL,alt:'屋檐边的梅花特写',label:'屋檐梅枝'},{src:ASSETS.PLUM_WALL_2,alt:'城墙梅花与远处城市',label:'古城与新城'},{src:ASSETS.PLUM_WALL_3,alt:'游客经过梅花与城墙',label:'赏梅人群'}],
+      leaf:[{src:ASSETS.OSMANTHUS_LOCAL_2,alt:'桂树叶片与落花的植物照片',label:'桂树叶片'},{src:ASSETS.OSMANTHUS_LOCAL_3,alt:'台州绿意中的桂树',label:'常绿树冠'},{src:ASSETS.OSMANTHUS_LOCAL_5,alt:'台州的街道绿地',label:'街道绿意'},{src:ASSETS.OSMANTHUS_LOCAL_7,alt:'石墙旁的桂树',label:'街巷桂树'}],
+      autumn:[{src:ASSETS.OSMANTHUS_LOCAL_1,alt:'台州街巷里的桂树',label:'街巷桂树'},{src:ASSETS.OSMANTHUS_LOCAL_4,alt:'台州的桂花特写',label:'叶间小花'},{src:ASSETS.OSMANTHUS_CITY,alt:'台州建筑旁的桂花',label:'城市桂景'},{src:ASSETS.OSMANTHUS_LOCAL_6,alt:'台州市民在桂树下休憩',label:'树下日常'}]
+    };
+    const seasonData={
+      1:{phase:'冬意未尽',title:'留意梅枝上的花蕾',description:'冷季的梅枝开始酝酿花事，有些年份、地点会较早开花；桂树保持常绿。',plum:'花蕾发育，部分早花可能开放',osmanthus:'常绿叶片，通常不在秋桂主花期',photo:'plum',hint:'具体开放先后受品种与气温影响。'},
+      2:{phase:'冬春交界',title:'府城梅花，迎来花时',description:'二月的台州府城梅园常能看到梅花与城墙相映。开放早晚随气温变化，出行前请查看当年的花讯。',plum:'冬末春初开放，进入赏花时段',osmanthus:'常绿叶片维持城市的绿意',photo:'plum',hint:'参考：台州 2025 年 2 月赏梅报道；月份仅作观察参考。'},
+      3:{phase:'春光渐浓',title:'梅花谢幕，枝头生叶',description:'花后，梅树逐渐长出叶片，花景过渡为新绿；桂树也进入春季生长。',plum:'花后长叶，部分枝条开始结果',osmanthus:'抽生新梢与嫩叶',photo:'plum',hint:'植物阶段示意；配图为台州赏梅资料照片，并非三月实拍。'},
+      4:{phase:'春日新绿',title:'从花瓣，看到叶片',description:'梅花不只在开花时值得认识。春季可观察叶形与新生果实；桂树的常绿树冠也更加茂盛。',plum:'叶片展开、幼果生长',osmanthus:'新梢生长，叶片舒展',photo:'leaf',hint:'配图用于观察常绿桂树及城市绿地，不表示四月拍摄。'},
+      5:{phase:'初夏将至',title:'梅果渐大，桂树成荫',description:'植物资料记录梅的果期在 5—6 月。城市里的桂树则以浓绿树荫陪伴初夏。',plum:'果实发育，花期已过',osmanthus:'常绿叶片与新枝生长',photo:'leaf',hint:'果期据高校植物资料；配图为桂树与城市绿地资料照片。'},
+      6:{phase:'梅果时节',title:'梅的故事，延续到果实',description:'梅树从春花走向果实成熟；桂树虽没有明显的秋香，叶与枝仍在生长。',plum:'果期后段，部分梅果成熟',osmanthus:'枝叶生长，逐渐形成后续花芽',photo:'leaf',hint:'梅果期一般为 5—6 月；配图不作为梅果实物照片。'},
+      7:{phase:'盛夏绿荫',title:'花期之外，也有生长',description:'夏季可把注意力放在叶片和树冠上；桂花秋季开花前，花芽持续分化。',plum:'枝叶生长，等待下一个花季',osmanthus:'花芽分化与枝叶维持',photo:'leaf',hint:'桂花花芽分化参考浙江农林大学学报；实际进度因品种而异。'},
+      8:{phase:'夏末酝酿',title:'等待秋香的前奏',description:'台州街道仍以绿树为主角。秋桂的花芽逐渐成熟，梅树也在为冬春花期蓄势。',plum:'枝叶维持，花芽逐步发育',osmanthus:'花芽发育，尚未进入普遍盛花期',photo:'leaf',hint:'配图为台州桂树与绿地资料照片，并非八月花芽特写。'},
+      9:{phase:'初秋花信',title:'寻找第一缕桂香',description:'部分秋桂品种可在九月开放；台州的实际起花时间与降温、降雨有关，可留意本地花讯。',plum:'叶片仍在，逐渐转入秋季',osmanthus:'部分秋桂始花，花香渐起',photo:'autumn',hint:'常见秋桂花期约 9—10 月；配图为台州秋季桂花资料照片。'},
+      10:{phase:'金秋桂香',title:'走进街巷的桂花季',description:'十月的台州，本地报道记录过街巷与公园里的桂花。先闻香，再抬头寻找叶间花簇。',plum:'枝叶转入季节变化',osmanthus:'秋桂主花期，香气明显',photo:'autumn',hint:'参考：台州 2024 年 10 月赏桂报道；实际花期以当年天气为准。'},
+      11:{phase:'秋末冬初',title:'花香渐远，枝叶留影',description:'多数秋桂的集中花期已过，桂树依然常绿；梅树逐渐落叶，枝条轮廓愈发清楚。',plum:'逐渐落叶，枝形显露',osmanthus:'秋花收尾，保留常绿树冠',photo:'leaf',hint:'不同桂花品种可能复花，月份并非绝对界线。'},
+      12:{phase:'冬季序章',title:'梅枝正在等待下一春',description:'梅树的枝干与花芽值得细看；桂树继续以绿叶参与城市冬景。下一轮花事即将开始。',plum:'休眠与花芽发育，准备开花',osmanthus:'常绿叶片，通常不在秋桂花期',photo:'plum',hint:'配图为台州梅花资料照片，用来提示下一轮花季。'}
+    };
+    let selectedMonth=2,selectedPhoto=0;
+    function renderMonth(month){const data=seasonData[month];selectedMonth=month;selectedPhoto=0;document.querySelectorAll('[data-month]').forEach(button=>button.setAttribute('aria-pressed',String(Number(button.dataset.month)===month)));document.getElementById('season-kicker').textContent=String(month).padStart(2,'0')+' / '+data.phase;document.getElementById('season-title').textContent=data.title;document.getElementById('season-description').textContent=data.description;document.getElementById('season-plum').textContent=data.plum;document.getElementById('season-osmanthus').textContent=data.osmanthus;document.getElementById('season-hint').textContent=data.hint;renderSeasonPhotos()}
+    function renderSeasonPhotos(){const photos=seasonPhotos[seasonData[selectedMonth].photo];const current=photos[selectedPhoto];const main=document.getElementById('season-image');main.src=current.src;main.alt=current.alt;document.querySelectorAll('.season-photo').forEach((button,index)=>{const photo=photos[index];button.querySelector('img').src=photo.src;button.querySelector('img').alt=photo.alt;button.querySelector('span').textContent=photo.label;button.setAttribute('aria-pressed',String(index===selectedPhoto))})}
+    document.querySelectorAll('[data-month]').forEach(button=>button.addEventListener('click',()=>renderMonth(Number(button.dataset.month))));
+    document.querySelectorAll('[data-season-photo]').forEach(button=>button.addEventListener('click',()=>{selectedPhoto=Number(button.dataset.seasonPhoto);renderSeasonPhotos()}));
+    renderMonth(2);
+
+    const quiz=[{q:'台州的两种市花是什么？',a:['桂花和梅花','荷花和玫瑰','月季和菊花'],right:0,explain:'正确。台州以桂花和梅花作为双市花。'},{q:'本页引用的台州本地报道记载，双市花于哪一年根据市民投票被选定？',a:['1983 年','1998 年','2021 年'],right:1,explain:'正确。本地媒体对市人大常委会决议的回顾指向 1998 年。'},{q:'在台州，哪里可以看到梅花与古城墙相映？',a:['临海台州府城梅园','椒江市民广场','温岭海岸'],right:0,explain:'正确。临海台州府城梅园是本页介绍的赏梅地点。'}];
+    let qi=0,answered=false;const choices=document.getElementById('choices'),feedback=document.getElementById('quiz-feedback'),next=document.getElementById('quiz-next');function renderQuestion(){answered=false;let item=quiz[qi];document.getElementById('question-number').textContent='QUESTION '+String(qi+1).padStart(2,'0')+' / 03';document.getElementById('question-title').textContent=item.q;choices.innerHTML='';feedback.textContent='';next.classList.remove('show');item.a.forEach((option,index)=>{const button=document.createElement('button');button.type='button';button.className='choice';button.textContent=String.fromCharCode(65+index)+'　'+option;button.addEventListener('click',()=>{if(answered)return;answered=true;choices.querySelectorAll('button').forEach((b,i)=>{b.disabled=true;if(i===item.right)b.classList.add('correct');else if(i===index)b.classList.add('wrong')});feedback.textContent=index===item.right?item.explain:'再记住这一点：'+item.explain;next.textContent=qi===quiz.length-1?'重新答题 ↻':'下一题 →';next.classList.add('show')});choices.append(button)})}next.addEventListener('click',()=>{qi=(qi+1)%quiz.length;renderQuestion()});renderQuestion();
+  </script>
+</body>
+</html>
